@@ -21,3 +21,8 @@
 
 > **git branch -d <branch_name>** - удалить ветку с именем branch_name
 
+
+
+
+
+> **git commit -am "massage"** - добавление фаилов в отслеживание и создание коммита.
