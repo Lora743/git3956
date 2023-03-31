@@ -3,7 +3,7 @@
 //2 -> " -2, -1, 0, 1, 2
 
 int n = 4;
-for(int i = -n; i <=n; i = i + 1)
+for(int i = 0; i <=n; i = i + 1)
 {
     Console.WriteLine(i);
 }
