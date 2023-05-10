@@ -2,13 +2,13 @@
 //N = 5 -> "1, 2, 3, 4, 5"
 //N = 6 -> "1, 2, 3, 4, 5, 6"
 
-int number = 5;
+int number = 10;
 Print1ToN(number);
 
 void Print1ToN(int n)
 {
     if (n < 1) return;
-    Print1ToN(n - 1);
+    Print1ToN(n + 1);
     Console.WriteLine($"{n} ");
 }
 
